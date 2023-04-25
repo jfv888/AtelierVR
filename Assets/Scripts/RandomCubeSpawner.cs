@@ -23,15 +23,15 @@ public class RandomCubeSpawner : MonoBehaviour
         {
             if (isRunning) {
             // Randomly select a cube prefab from the array
-            int randomIndex = Random.Range(0, cubePrefabs.Length - 1);
+            int randomIndex = Random.Range(0, cubePrefabs.Length);
             GameObject selectedCube = cubePrefabs[randomIndex];
 
             // Instantiate the selected cube prefab at the spawner's position and rotation
             Instantiate(selectedCube, new Vector3(transform.position.x + 2, transform.position.y + 0.4f, transform.position.z), transform.rotation);
 
+            }
             // Wait for the specified time interval before spawning the next cube
             yield return new WaitForSeconds(spawnInterval); 
-            }
         }
     }
 
