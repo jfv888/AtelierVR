@@ -9,6 +9,7 @@ TagManager:
   - Conveyor
   - BadCube
   - GoodCube
+  - Machine
   layers:
   - Default
   - TransparentFX
