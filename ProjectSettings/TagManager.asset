@@ -7,6 +7,8 @@ TagManager:
   - projectile
   - FxTemporaire
   - Conveyor
+  - BadCube
+  - GoodCube
   layers:
   - Default
   - TransparentFX

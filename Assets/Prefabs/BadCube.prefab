@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 925263258512371962}
   m_Layer: 0
   m_Name: BadCube
-  m_TagString: Untagged
+  m_TagString: BadCube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
